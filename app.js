@@ -1,3 +1,6 @@
+// ✅ Confirm JS is loading
+console.log("✅ app.js loaded");
+
 // Create the map
 const map = L.map("map").setView([48.8566, 2.3522], 6);
 
@@ -31,4 +34,3 @@ locations.forEach(location => {
       `<strong>${location.name}</strong><br>${location.description}`
     );
 });
-``
