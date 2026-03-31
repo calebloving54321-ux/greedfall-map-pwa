@@ -27,7 +27,7 @@ const locations = [
 ];
 
 // Add markers
-locations.forEach(location => {
+locations.forEach(location =&gt; {
   L.marker([location.lat, location.lng])
     .addTo(map)
     .bindPopup(
